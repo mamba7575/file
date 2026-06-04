@@ -72,19 +72,6 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00FF00",
-      "groupId": "g-fsl",
-      "id": "host-pixel",
-      "imageURL": "https://raw.githubusercontent.com/mamba7575/file/refs/heads/main/badge/badge%20png/PIXELDRAIN.png",
-      "isEnabled": true,
-      "name": "P.",
-      "pattern": "(?i)\\b(?:pixeldrain|pixeldrain1|pixeldrain2|pixeldrain 1|pixeldrain 2|pixeldrainv1|pixeldrainv2|pixeldrain v1|pixeldrain v2)\\b",
-      "tagColor": "#00FF00",
-      "tagStyle": "filled",
-      "textColor": "#0e0e0e",
-      "type": "filter"
-    },
-    {
       "borderColor": "#000000",
       "groupId": "gl",
       "id": "l-hi",
