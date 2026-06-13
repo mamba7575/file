@@ -36,13 +36,6 @@
       "name": "Quality"
     },
     {
-      "borderColor": "#000000",
-      "color": "#000000",
-      "id": "bit-depth",
-      "isExpanded": true,
-      "name": "Bit Depth"
-    },
-    {
       "borderColor": "#FFFFFF",
       "color": "#FFFFFF",
       "id": "ga",
@@ -66,6 +59,19 @@
       "isEnabled": true,
       "name": "FSL",
       "pattern": "(?i)\\b(?:fsl|fsl1|fsl2|fsl 1|fsl 2|fslv1|fslv2|fsl v1|fsl v2)\\b",
+      "tagColor": "#00FF00",
+      "tagStyle": "filled",
+      "textColor": "#0e0e0e",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#00FF00",
+      "groupId": "g-fsl",
+      "id": "host-pixel",
+      "imageURL": "https://raw.githubusercontent.com/mamba7575/file/refs/heads/main/badge/badge%20png/PIXELDRAIN.png",
+      "isEnabled": true,
+      "name": "P.",
+      "pattern": "(?i)\\b(?:pixeldrain|pixeldrain1|pixeldrain2|pixeldrain 1|pixeldrain 2|pixeldrainv1|pixeldrainv2|pixeldrain v1|pixeldrain v2)\\b",
       "tagColor": "#00FF00",
       "tagStyle": "filled",
       "textColor": "#0e0e0e",
@@ -316,32 +322,6 @@
       "tagColor": "#d51768",
       "tagStyle": "filled",
       "textColor": "#0e0e0e",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#d51768",
-      "groupId": "bit-depth",
-      "id": "10bit",
-      "imageURL": "https://raw.githubusercontent.com/leonevz/Elite-Badges/main/Badges/10Bit_transparent_4x.png",
-      "isEnabled": true,
-      "name": "10Bit",
-      "pattern": "(?i)\\b(10[\\s._-]?bit|10b|hi10p)\\b",
-      "tagColor": "#000000",
-      "tagStyle": "filled",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#d51768",
-      "groupId": "bit-depth",
-      "id": "8bit",
-      "imageURL": "https://raw.githubusercontent.com/leonevz/Elite-Badges/main/Badges/8Bit_transparent_4x.png",
-      "isEnabled": true,
-      "name": "8Bit",
-      "pattern": "(?i)\\b(8[\\s._-]?bit|8b)\\b",
-      "tagColor": "#000000",
-      "tagStyle": "filled",
-      "textColor": "#FFFFFF",
       "type": "filter"
     },
     {
