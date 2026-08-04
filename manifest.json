@@ -1,11 +1,11 @@
 {
-  "name": "My-Nuvio-Providers",
+  "name": "My",
   "version": "1.0.0",
   "scrapers": [
     {
       "id": "hdhub4u",
-      "name": "HDHub4u",
-      "description": "HDHub4u provider",
+      "name": "HDHub4u1",
+      "description": "HDHub4u",
       "version": "1.0.0",
       "author": "Admin",
       "supportedTypes": ["movie", "tv"], 
@@ -18,8 +18,8 @@
     },
     {
       "id": "rogmovies",
-      "name": "RogMovies",
-      "description": "RogMovies provider",
+      "name": "RogMovies1",
+      "description": "RogMovies",
       "version": "1.0.0",
       "author": "Admin",
       "supportedTypes": ["movie", "tv"],
@@ -32,8 +32,8 @@
     },
     {
       "id": "vegamovies",
-      "name": "VegaMovies",
-      "description": "VegaMovies provider",
+      "name": "VegaMovies1",
+      "description": "VegaMovies",
       "version": "1.0.0",
       "author": "Admin",
       "supportedTypes": ["movie", "tv"],
