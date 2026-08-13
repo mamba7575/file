@@ -57,6 +57,20 @@
       "formats": ["mp4", "mkv", "m3u8"],
       "logo": "",
       "contentLanguage": ["en", "hi"]
+    },
+    {
+      "id": "4k1",
+      "name": "4k1",
+      "description": "4k1",
+      "version": "1.0.0",
+      "author": "Admin",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/4k1.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": ["mp4", "mkv", "m3u8"],
+      "logo": "",
+      "contentLanguage": ["en", "hi"]
     }
   ]
 }
