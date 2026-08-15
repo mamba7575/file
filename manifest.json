@@ -71,6 +71,20 @@
       "formats": ["mp4", "mkv", "m3u8"],
       "logo": "",
       "contentLanguage": ["en", "hi"]
+    },
+    {
+      "id": "z1",
+      "name": "Z1",
+      "description": "Z1",
+      "version": "1.0.0",
+      "author": "Admin",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/z1.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": ["mp4", "mkv", "m3u8"],
+      "logo": "",
+      "contentLanguage": ["en", "hi"]
     }
   ]
 }
