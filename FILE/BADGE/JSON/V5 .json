@@ -81,7 +81,7 @@
       "borderColor": "#000000",
       "groupId": "gl",
       "id": "l-hi",
-      "imageURL": "https://raw.githubusercontent.com/mamba7575/file/main/FILE/BADGE/BADGE%20IMAGE/HINDI.png",
+      "imageURL": "https://raw.githubusercontent.com/mamba7575/file/refs/heads/main/FILE/BADGE/BADGE%20IMAGE/HINDI.png",
       "isEnabled": true,
       "name": "HIN",
       "pattern": "(?i)(?<![a-z])(hindi|hin)(?![ .\\-_]?sub(title)?s?)(?![a-z])|[ऀ-ॿ]{3,}",
