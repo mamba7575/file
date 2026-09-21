@@ -1,0 +1,866 @@
+{
+  "version": "2.7.1",
+  "exportedAt": "2026-06-22T15:34:08.629Z",
+  "config": {
+    "language": "en-US",
+    "addonName": "",
+    "includeAdult": false,
+    "blurThumbs": false,
+    "showPrefix": false,
+    "showMetaProviderAttribution": false,
+    "castCount": 10,
+    "displayAgeRating": true,
+    "showDisabledCatalogs": false,
+    "sfw": true,
+    "hideUnreleasedDigital": false,
+    "hideUnreleasedDigitalSearch": false,
+    "hideUnreleasedShows": true,
+    "hideUnreleasedShowsSearch": true,
+    "hideWatchedTrakt": false,
+    "hideWatchedAnilist": false,
+    "hideWatchedMdblist": false,
+    "providers": {
+      "movie": "tmdb",
+      "series": "tvdb",
+      "anime": "imdb",
+      "anime_id_provider": "imdb",
+      "forceAnimeForDetectedImdb": false
+    },
+    "artProviders": {
+      "movie": {
+        "poster": "meta",
+        "background": "meta",
+        "logo": "meta"
+      },
+      "series": {
+        "poster": "meta",
+        "background": "meta",
+        "logo": "meta"
+      },
+      "anime": {
+        "poster": "meta",
+        "background": "imdb",
+        "logo": "imdb"
+      },
+      "englishArtOnly": false,
+      "originalLangFallback": true
+    },
+    "tvdbSeasonType": "default",
+    "mal": {
+      "skipFiller": false,
+      "skipRecap": false,
+      "allowEpisodeMarking": false,
+      "useImdbIdForCatalogAndSearch": false
+    },
+    "tmdb": {
+      "scrapeImdb": true,
+      "forceLatinCastNames": true
+    },
+    "apiKeys": {
+      "gemini": "",
+      "tmdb": "74d5d14c2fda5a202a8a1ea992032ed2",
+      "tvdb": "efd4d77c-65f4-4fd7-898a-774f22b04784",
+      "fanart": "",
+      "rpdb": "",
+      "topPoster": "",
+      "mdblist": "cluksk7nhvmyr9fwgvwaul6q3",
+      "openrouter": "",
+      "publicmetadb": "",
+      "trakt": "d82fbf253f88a2dafd124c2925fc504a92cf0f3aca23282d522cf97c5a0af9a3",
+      "simkl": "6c2ee5c786881932bef47bdf4ec2235d40689482f417105b99c49fa7461d2035",
+      "addonVersion": "2.7.1",
+      "hasBuiltInTvdb": false,
+      "hasBuiltInTmdb": false,
+      "catalogTTL": 86400,
+      "simklTrendingPageSizeOptions": [
+        50,
+        100
+      ],
+      "traktSearchEnabled": false,
+      "customDescriptionBlurb": ""
+    },
+    "posterRatingProvider": "rpdb",
+    "usePosterProxy": false,
+    "mdblistWatchTracking": false,
+    "anilistWatchTracking": false,
+    "simklWatchTracking": false,
+    "traktWatchTracking": false,
+    "publicmetadbWatchTracking": false,
+    "enableRatingPostersForLibrary": false,
+    "showRateMeButton": false,
+    "ageRating": "None",
+    "searchEnabled": true,
+    "sessionId": "",
+    "catalogSetupComplete": true,
+    "timezone": "Asia/Kolkata",
+    "catalogs": [
+      {
+        "id": "tmdb.list.8657261",
+        "type": "all",
+        "name": "New Hindi Movies",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8657261",
+          "listName": "New Hindi Movies",
+          "listDescription": "No description",
+          "url": "https://www.themoviedb.org/list/8657261"
+        }
+      },
+      {
+        "id": "tmdb.list.8656853",
+        "type": "all",
+        "name": "South Hindi Dubbed Movies",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656853",
+          "listName": "South Hindi Dubbed Movies",
+          "listDescription": "Automated renaming to: South Hindi Dubbed Movies",
+          "url": "https://www.themoviedb.org/list/8656853"
+        }
+      },
+      {
+        "id": "tmdb.list.8657262",
+        "type": "all",
+        "name": "New Hindi Series",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8657262",
+          "listName": "New Hindi Series",
+          "listDescription": "No description",
+          "url": "https://www.themoviedb.org/list/8657262"
+        }
+      },
+      {
+        "id": "tmdb.list.8657263",
+        "type": "all",
+        "name": "New in Hindi",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8657263",
+          "listName": "New in Hindi",
+          "listDescription": "No description",
+          "url": "https://www.themoviedb.org/list/8657263"
+        }
+      },
+      {
+        "id": "tmdb.list.8656876",
+        "type": "all",
+        "name": "KDrama Hindi Dubbed Series",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656876",
+          "listName": "KDrama Hindi Dubbed Series",
+          "listDescription": "Automated renaming to: KDrama Hindi Dubbed Series",
+          "url": "https://www.themoviedb.org/list/8656876"
+        }
+      },
+      {
+        "id": "tmdb.list.8656878",
+        "type": "all",
+        "name": "CDrama Hindi Dubbed Series",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656878",
+          "listName": "CDrama Hindi Dubbed Series",
+          "listDescription": "Automated renaming to: CDrama Hindi Dubbed Series",
+          "url": "https://www.themoviedb.org/list/8656878"
+        }
+      },
+      {
+        "id": "tmdb.list.8656896",
+        "type": "all",
+        "name": "Bollywood Movies",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656896",
+          "listName": "Bollywood Movies",
+          "listDescription": "Automated renaming to: Bollywood Movies",
+          "url": "https://www.themoviedb.org/list/8656896"
+        }
+      },
+      {
+        "id": "tmdb.list.8656895",
+        "type": "all",
+        "name": "Bollywood Series",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656895",
+          "listName": "Bollywood Series",
+          "listDescription": "Automated renaming to: Bollywood Series",
+          "url": "https://www.themoviedb.org/list/8656895"
+        }
+      },
+      {
+        "id": "tmdb.list.8656856",
+        "type": "all",
+        "name": "South Hindi Dubbed Movies Rating 5.1 to 7",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656856",
+          "listName": "South Hindi Dubbed Movies Rating 5.1 to 7",
+          "listDescription": "Automated renaming to: South Hindi Dubbed Movies Rating 5.1 to 7",
+          "url": "https://www.themoviedb.org/list/8656856"
+        }
+      },
+      {
+        "id": "tmdb.list.8656855",
+        "type": "all",
+        "name": "South Hindi Dubbed Movies Rating Less Than 5",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656855",
+          "listName": "South Hindi Dubbed Movies Rating Less Than 5",
+          "listDescription": "Automated renaming to: South Hindi Dubbed Movies Rating Less Than 5",
+          "url": "https://www.themoviedb.org/list/8656855"
+        }
+      },
+      {
+        "id": "tmdb.list.8657266",
+        "type": "all",
+        "name": "New in English",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8657266",
+          "listName": "New in English",
+          "listDescription": "No description",
+          "url": "https://www.themoviedb.org/list/8657266"
+        }
+      },
+      {
+        "id": "tmdb.list.8657265",
+        "type": "all",
+        "name": "New English Webseries",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8657265",
+          "listName": "New English Webseries",
+          "listDescription": "No description",
+          "url": "https://www.themoviedb.org/list/8657265"
+        }
+      },
+      {
+        "id": "tmdb.list.8656879",
+        "type": "all",
+        "name": "Dual Audio Hindi Dubbed Series",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656879",
+          "listName": "Dual Audio Hindi Dubbed Series",
+          "listDescription": "Automated renaming to: Dual Audio Hindi Dubbed Series",
+          "url": "https://www.themoviedb.org/list/8656879"
+        }
+      },
+      {
+        "id": "tmdb.list.8656902",
+        "type": "all",
+        "name": "Bollywood Movies Above 7",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656902",
+          "listName": "Bollywood Movies Above 7",
+          "listDescription": "Automated renaming to: Bollywood Movies Above 7",
+          "url": "https://www.themoviedb.org/list/8656902"
+        }
+      },
+      {
+        "id": "tmdb.list.8657264",
+        "type": "all",
+        "name": "New English Movies",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8657264",
+          "listName": "New English Movies",
+          "listDescription": "No description",
+          "url": "https://www.themoviedb.org/list/8657264"
+        }
+      },
+      {
+        "id": "tmdb.list.8656899",
+        "type": "all",
+        "name": "Dual Audio Hindi Movies 5 to 7",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656899",
+          "listName": "Dual Audio Hindi Movies 5 to 7",
+          "listDescription": "Automated renaming to: Dual Audio Hindi Movies 5 to 7",
+          "url": "https://www.themoviedb.org/list/8656899"
+        }
+      },
+      {
+        "id": "tmdb.list.8657274",
+        "type": "all",
+        "name": "Anime Hindi Dubbed Shows",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8657274",
+          "listName": "Anime Hindi Dubbed Shows",
+          "listDescription": "No description",
+          "url": "https://www.themoviedb.org/list/8657274"
+        }
+      },
+      {
+        "id": "tmdb.list.8657273",
+        "type": "all",
+        "name": "Anime Hindi Dubbed Movies",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8657273",
+          "listName": "Anime Hindi Dubbed Movies",
+          "listDescription": "No description",
+          "url": "https://www.themoviedb.org/list/8657273"
+        }
+      },
+      {
+        "id": "tmdb.list.8656901",
+        "type": "all",
+        "name": "Bollywood Movies 5 to 7",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656901",
+          "listName": "Bollywood Movies 5 to 7",
+          "listDescription": "Automated renaming to: Bollywood Movies 5 to 7",
+          "url": "https://www.themoviedb.org/list/8656901"
+        }
+      },
+      {
+        "id": "tmdb.list.8656911",
+        "type": "all",
+        "name": "Bollywood Movies Less Than 5",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656911",
+          "listName": "Bollywood Movies Less Than 5",
+          "listDescription": "Automated renaming to: Bollywood Movies Less Than 5",
+          "url": "https://www.themoviedb.org/list/8656911"
+        }
+      },
+      {
+        "id": "tmdb.list.8656900",
+        "type": "all",
+        "name": "Dual Audio Hindi Movies Above 7",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656900",
+          "listName": "Dual Audio Hindi Movies Above 7",
+          "listDescription": "Automated renaming to: Dual Audio Hindi Movies Above 7",
+          "url": "https://www.themoviedb.org/list/8656900"
+        }
+      },
+      {
+        "id": "tmdb.list.8656912",
+        "type": "all",
+        "name": "Dual Audio Hindi Movies Less Than 5",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656912",
+          "listName": "Dual Audio Hindi Movies Less Than 5",
+          "listDescription": "Automated renaming to: Dual Audio Hindi Movies Less Than 5",
+          "url": "https://www.themoviedb.org/list/8656912"
+        }
+      },
+      {
+        "id": "tmdb.list.8656894",
+        "type": "all",
+        "name": "Dual Audio Hindi Movies",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656894",
+          "listName": "Dual Audio Hindi Movies",
+          "listDescription": "Automated renaming to: Dual Audio Hindi Movies",
+          "url": "https://www.themoviedb.org/list/8656894"
+        }
+      },
+      {
+        "id": "tmdb.list.8656877",
+        "type": "all",
+        "name": "KDrama Hindi Dubbed Movie",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656877",
+          "listName": "KDrama Hindi Dubbed Movie",
+          "listDescription": "Automated renaming to: KDrama Hindi Dubbed Movie",
+          "url": "https://www.themoviedb.org/list/8656877"
+        }
+      },
+      {
+        "id": "tmdb.list.8656875",
+        "type": "all",
+        "name": "SonyLIV Hindi Series",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656875",
+          "listName": "SonyLIV Hindi Series",
+          "listDescription": "Automated renaming to: SonyLIV Hindi Series",
+          "url": "https://www.themoviedb.org/list/8656875"
+        }
+      },
+      {
+        "id": "tmdb.list.8656874",
+        "type": "all",
+        "name": "SonyLIV Hindi Movie",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656874",
+          "listName": "SonyLIV Hindi Movie",
+          "listDescription": "Automated renaming to: SonyLIV Hindi Movie",
+          "url": "https://www.themoviedb.org/list/8656874"
+        }
+      },
+      {
+        "id": "tmdb.list.8656873",
+        "type": "all",
+        "name": "Amazon miniTV Hindi",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656873",
+          "listName": "Amazon miniTV Hindi",
+          "listDescription": "Automated renaming to: Amazon miniTV Hindi",
+          "url": "https://www.themoviedb.org/list/8656873"
+        }
+      },
+      {
+        "id": "tmdb.list.8656872",
+        "type": "all",
+        "name": "Zee5 Hindi Series",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656872",
+          "listName": "Zee5 Hindi Series",
+          "listDescription": "Automated renaming to: Zee5 Hindi Series",
+          "url": "https://www.themoviedb.org/list/8656872"
+        }
+      },
+      {
+        "id": "tmdb.list.8656871",
+        "type": "all",
+        "name": "Zee5 Hindi Movie",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656871",
+          "listName": "Zee5 Hindi Movie",
+          "listDescription": "Automated renaming to: Zee5 Hindi Movie",
+          "url": "https://www.themoviedb.org/list/8656871"
+        }
+      },
+      {
+        "id": "tmdb.list.8656870",
+        "type": "all",
+        "name": "JioHotstar Hindi Series",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656870",
+          "listName": "JioHotstar Hindi Series",
+          "listDescription": "Automated renaming to: JioHotstar Hindi Series",
+          "url": "https://www.themoviedb.org/list/8656870"
+        }
+      },
+      {
+        "id": "tmdb.list.8656869",
+        "type": "all",
+        "name": "JioHotstar Hindi Movie",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656869",
+          "listName": "JioHotstar Hindi Movie",
+          "listDescription": "Automated renaming to: JioHotstar Hindi Movie",
+          "url": "https://www.themoviedb.org/list/8656869"
+        }
+      },
+      {
+        "id": "tmdb.list.8656868",
+        "type": "all",
+        "name": "Amazon Prime Hindi Series",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656868",
+          "listName": "Amazon Prime Hindi Series",
+          "listDescription": "Automated renaming to: Amazon Prime Hindi Series",
+          "url": "https://www.themoviedb.org/list/8656868"
+        }
+      },
+      {
+        "id": "tmdb.list.8656867",
+        "type": "all",
+        "name": "Amazon Prime Hindi Movie",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656867",
+          "listName": "Amazon Prime Hindi Movie",
+          "listDescription": "Automated renaming to: Amazon Prime Hindi Movie",
+          "url": "https://www.themoviedb.org/list/8656867"
+        }
+      },
+      {
+        "id": "tmdb.list.8656866",
+        "type": "all",
+        "name": "Netflix Hindi Series",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656866",
+          "listName": "Netflix Hindi Series",
+          "listDescription": "Automated renaming to: Netflix Hindi Series",
+          "url": "https://www.themoviedb.org/list/8656866"
+        }
+      },
+      {
+        "id": "tmdb.list.8656865",
+        "type": "all",
+        "name": "Netflix Hindi Movie",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656865",
+          "listName": "Netflix Hindi Movie",
+          "listDescription": "Automated renaming to: Netflix Hindi Movie",
+          "url": "https://www.themoviedb.org/list/8656865"
+        }
+      },
+      {
+        "id": "tmdb.list.8656864",
+        "type": "all",
+        "name": "Telugu Hindi Dubbed",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656864",
+          "listName": "Telugu Hindi Dubbed",
+          "listDescription": "Automated renaming to: Telugu Hindi Dubbed",
+          "url": "https://www.themoviedb.org/list/8656864"
+        }
+      },
+      {
+        "id": "tmdb.list.8656863",
+        "type": "all",
+        "name": "Kannada Hindi Dubbed",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656863",
+          "listName": "Kannada Hindi Dubbed",
+          "listDescription": "Automated renaming to: Kannada Hindi Dubbed",
+          "url": "https://www.themoviedb.org/list/8656863"
+        }
+      },
+      {
+        "id": "tmdb.list.8656862",
+        "type": "all",
+        "name": "Malayalam Hindi Dubbed",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656862",
+          "listName": "Malayalam Hindi Dubbed",
+          "listDescription": "Automated renaming to: Malayalam Hindi Dubbed",
+          "url": "https://www.themoviedb.org/list/8656862"
+        }
+      },
+      {
+        "id": "tmdb.list.8656858",
+        "type": "all",
+        "name": "South Hindi Dubbed Series",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656858",
+          "listName": "South Hindi Dubbed Series",
+          "listDescription": "Automated renaming to: South Hindi Dubbed Series",
+          "url": "https://www.themoviedb.org/list/8656858"
+        }
+      },
+      {
+        "id": "tmdb.list.8656854",
+        "type": "all",
+        "name": "South Hindi Dubbed Movies Rating 7 to 10",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 7200,
+        "metadata": {
+          "listId": "8656854",
+          "listName": "South Hindi Dubbed Movies Rating 7 to 10",
+          "listDescription": "Automated renaming to: South Hindi Dubbed Movies Rating 7 to 10",
+          "url": "https://www.themoviedb.org/list/8656854"
+        }
+      },
+      {
+        "id": "mdblist.86934",
+        "type": "movie",
+        "name": "Latest Streaming Movies",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 200,
+          "author": "snoak",
+          "url": "https://mdblist.com/lists/snoak/latest-movies-digital-release",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.86710",
+        "type": "series",
+        "name": "Latest Shows",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 200,
+          "author": "snoak",
+          "url": "https://mdblist.com/lists/snoak/latest-tv-shows",
+          "mediatype": "show"
+        }
+      },
+      {
+        "id": "mdblist.apollocat.indian-stand-up-comedy-specials-and-series",
+        "type": "all",
+        "name": "Indian Stand-Up Comedy",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sourceUrl": "https://api.mdblist.com/lists/apollocat/indian-stand-up-comedy-specials-and-series/items",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 45,
+          "author": "apollocat",
+          "url": "https://mdblist.com/lists/apollocat/indian-stand-up-comedy-specials-and-series",
+          "mediatype": "mixed"
+        }
+      },
+      {
+        "id": "mdblist.88467",
+        "type": "movie",
+        "name": "Trending Kids Movies",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 200,
+          "author": "snoak",
+          "url": "https://mdblist.com/lists/snoak/trending-kids-movies",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.5749",
+        "type": "movie",
+        "name": "all-animated-movies-for-kids",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 4896,
+          "author": "a925sw",
+          "url": "https://mdblist.com/lists/a925sw/all-animated-movies-for-kids",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.102554",
+        "type": "movie",
+        "name": "Must-See Modern Horror",
+        "enabled": true,
+        "showInHome": false,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 185,
+          "author": "snoak",
+          "url": "https://mdblist.com/lists/snoak/must-see-modern-horror",
+          "mediatype": "movie"
+        }
+      }
+    ],
+    "search": {
+      "enabled": true,
+      "ai_enabled": false,
+      "ai_provider": "gemini",
+      "ai_model": "gemini-2.5-flash-lite",
+      "providers": {
+        "movie": "tmdb.search",
+        "series": "tvdb.search",
+        "anime_movie": "mal.search.movie",
+        "anime_series": "mal.search.series",
+        "people_search_movie": "tmdb.people.search",
+        "people_search_series": "tmdb.people.search"
+      },
+      "engineEnabled": {
+        "tmdb.search": true,
+        "tvdb.search": true,
+        "tvdb.collections.search": false,
+        "tvmaze.search": true,
+        "trakt.search": true,
+        "mdblist.search": true,
+        "people_search_movie": false,
+        "people_search_series": false,
+        "mal.search.movie": true,
+        "mal.search.series": true
+      },
+      "searchNames": {},
+      "searchOrder": [
+        "movie",
+        "series",
+        "tvdb.collections.search",
+        "gemini.search",
+        "anime_series",
+        "anime_movie",
+        "people_search_movie",
+        "people_search_series"
+      ]
+    },
+    "streaming": [
+      "nfx"
+    ],
+    "customPosterUrlPattern": "",
+    "customBackgroundUrlPattern": "",
+    "customLogoUrlPattern": "",
+    "exclusionGenres": "",
+    "lastModified": 1782104126734,
+    "configVersion": 1782104126735,
+    "configHash": "6c862428036b0d7c"
+  },
+  "metadata": {
+    "apiKeysExcluded": false,
+    "totalCatalogs": 46,
+    "enabledCatalogs": 46
+  }
+}
