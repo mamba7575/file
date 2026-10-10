@@ -225,6 +225,20 @@
       "formats": ["mp4", "mkv", "m3u8"],
       "logo": "",
       "contentLanguage": ["en", "hi"]
+    },
+    {
+      "id": "nx1",
+      "name": "Nx1",
+      "description": "Nx1",
+      "version": "1.0.0",
+      "author": "Admin",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/nx1.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": ["mp4", "mkv", "m3u8"],
+      "logo": "",
+      "contentLanguage": ["en", "hi"]
     }
   ]
 }
