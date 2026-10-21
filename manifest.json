@@ -295,6 +295,20 @@
       "formats": ["mp4", "mkv", "m3u8"],
       "logo": "",
       "contentLanguage": ["en", "hi"]
+    },
+    {
+      "id": "k1",
+      "name": "K1",
+      "description": "K1",
+      "version": "1.0.0",
+      "author": "Admin",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/k1.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": ["mp4", "mkv", "m3u8"],
+      "logo": "",
+      "contentLanguage": ["en", "hi"]
     }
   ]
 }
