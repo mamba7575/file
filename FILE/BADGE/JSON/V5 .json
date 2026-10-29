@@ -240,7 +240,7 @@
       "imageURL": "https://raw.githubusercontent.com/mamba7575/file/main/FILE/BADGE/BADGE%20IMAGE/HDR.png",
       "isEnabled": true,
       "name": "HDR",
-      "pattern": "(?i)(?s)^(?!.*\\b(?:dv|dovi|dolby[ ._-]?vision)\\b)(?!.*\\bhdr[ ._-]?10).*?\\bhdr\\b",
+      "pattern": "(?i)(?s)^(?!.*\\b(?:dv|dovi|dolby[ ._-]?vision)\\b)(?!.*\\bhdr[ ._-]?10\\b(?![- ._]?bits?\\b)).*?\\bhdr\\b",
       "tagColor": "#fabe01",
       "tagStyle": "filled",
       "textColor": "#0e0e0e",
@@ -482,4 +482,3 @@
     }
   ]
 }
- 
